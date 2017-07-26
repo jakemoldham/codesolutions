@@ -1,0 +1,27 @@
+name: codesolutions
+version: 0.1.0
+
+authors:
+  - Amber <contact@ambercr.io>
+
+crystal: 0.22.0
+
+license: MIT
+
+dependencies:
+  amber:
+    github: Amber-Crystal/amber 
+
+  granite_orm:
+    github: kemalyst/granite-orm
+    version: ~> 0.6.0
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+
+#  mysql:
+#    github: crystal-lang/crystal-mysql
+#  pg:
+#    github: will/crystal-pg
+#  sqlite3:
+#    github: crystal-lang/crystal-sqlite3

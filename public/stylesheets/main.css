@@ -1,0 +1,180 @@
+$blue: #354052;
+$white: #ffffff;
+$orange: #fb502e;
+
+/*
+ * Globals
+ */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #acacac;
+  background-color: #f2f2f2;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/*
+ * Masthead for nav
+ */
+.masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+.main {
+  padding-top: 20px;
+}
+.index-nav {
+  height: 100px;
+  width: 100%;
+  background-color: $blue;
+  text-align: center;
+  h1 {
+    color: $white;
+    display: inline-block;
+    padding-top: 25px;
+    margin: 0;
+  } 
+}
+
+.no-marg {
+  margin: 0;
+}
+
+.fifty-margin-bot {
+  margin-bottom: 50px;
+}
+
+.hundy-fity-margin-bot {
+  margin-bottom: 150px;
+}
+
+.welcome-statement h4 {
+  color: $blue;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: $white;
+  padding-top: 39px;
+  margin: 0;
+}
+
+.card {
+  width: 367px;
+  height: 300px;
+  margin-top: 50px;
+  background-color: $white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  .title {
+    color: $blue;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+  } .description {
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+  } .author-card {
+    width: 80%;
+    padding-top: 15px;
+    margin: 0 auto;
+  } .posts-show-btn {
+    width: 50%;
+    height: 40px;
+    margin-left: 83px;
+    background-color: $orange;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 15px;
+    a:hover {
+      text-decoration: none;
+    }
+  } .posts-link {
+    text-align: center;
+    color: $white;
+    padding-top: 6px;
+    font-size: 19px;
+  }
+}
+
+
+.index-posts {
+  h1 {
+    color: $blue; 
+    margin: 80px 0 40px 0;
+    text-align: center;
+  } .post-list {
+    margin-bottom: 150px;
+    text-align: center;
+    a {
+      color: $blue;
+      margin: 10px 20px;
+      &:hover {
+        color: $orange;
+      }
+    } 
+  }
+}
+
+
+.jarleigh-footer {
+  padding-top: 14px;
+  width: 100%;
+  height: 100px;
+  color: $blue;
+  text-align: center;
+  background-color: $white;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #f2f2f2;
+}
+
