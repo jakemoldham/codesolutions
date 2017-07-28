@@ -1,5 +1,5 @@
 .index-nav
-  h1 The::Code::Blog
+  h1 style="display:inline" The::Code::Blog 
   h1.glyphicon.glyphicon-align-left style="padding-left:10px;"
 .welcome-statement
   h4 We hope you enjoy our code!
@@ -15,7 +15,7 @@
             = s.description
           .author-card
             |Author: 
-            = s.author.capitalize
+            = s.author
           .posts-show-btn
             a href="/posts/#{s.id}"
               .posts-link

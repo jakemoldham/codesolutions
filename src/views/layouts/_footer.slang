@@ -1,6 +1,6 @@
-.jarleigh-footer
+div.jarleigh-footer
   | Creators and main contributers to the blog
-  .creators
+  div.creators
     a href="https://github.com/jakemoldham" 
       | Jake
     a href="https://github.com/thebradhimself" 
@@ -9,7 +9,7 @@
       | Isaac
     a href="https://github.com/arleigh-atkinson" 
       | Arleigh
-  .creators
+  div.creators
     a href="https://jakeoldham.com" 
       | Jake Personal
     a href="https://isaacsloan.com" 
